@@ -1,0 +1,48 @@
+.custom-alert {
+    position: fixed;
+    top: 80px;
+    right: 25px;
+    z-index: 15;
+}
+
+#dashboard_menu {
+    position: fixed;
+    height: 100%;
+    z-index: 10;
+}
+
+@media screen and (max-width: 991px) {
+
+    #dashboard_menu {
+        height: auto;
+        width: 100%;
+    }
+
+    #main_content {
+        margin-top: 60px;
+    }
+}
+
+
+/* ScrollBar CSS Section */
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: offset 0 0 2px grey;
+    border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(32, 31, 31);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: black;
+}
